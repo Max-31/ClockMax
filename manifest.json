@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ClockMax",
+    "version": "1.0.0",
+    "description": "Displays the current time with precision and style!",
+    "action":{
+        "default_popup": "index.html"
+    },
+    "icons":{
+        "48": "./icons/clockIcon3.png",
+        "128": "./icons/clockIcon2.png"
+    },
+    "permissions": []
+}
