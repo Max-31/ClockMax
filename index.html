@@ -6,15 +6,20 @@
     <title>ClockMax</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body id="bodyId" class="dark bg-gray-900 text-white flex items-center justify-center h-screen">
-    <div id="containerId" class="font-orbitron container bg-gray-800 p-6 rounded-2xl shadow-xl text-center">
+<body id="bodyId" class="dark bg-gray-900 text-white flex items-center justify-center">
+    <div id="containerId" class="w-2xs h-fit font-orbitron container bg-gray-800 p-6 rounded-2xl shadow-xl text-center">
         <div id="headingId" class="heading text-3xl font-bold mb-4">ClockMax</div>
+
+        <div class="date flex gap-3 grid place-content-center mb-4 p-3 rounded-lg bg-gray-700 shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">
+            <div id="dateId" class="inline-block p-2 text-2xl text-center font-bold text-blue-300 mt-1">Loading...</div>
+        </div>
+
         <div id="clockId" class="clock flex text-2xl justify-center items-center space-x-1">
-            <div id="hourId" class="hour bg-gray-700 text-white p-3 rounded-lg shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">00</div>
+            <div id="hourId" class="hour w-3xs bg-gray-700 text-white font-bold p-3 rounded-lg shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">00</div>
             <p id="p1Id">:</p>
-            <div id="minId" class="min bg-gray-700 text-white p-3 rounded-lg shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">15</div>
+            <div id="minId" class="min w-3xs bg-gray-700 text-white font-bold p-3 rounded-lg shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">15</div>
             <p id="p2Id">:</p>
-            <div id="secId" class="sec bg-gray-700 text-white p-3 rounded-lg shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">46</div>
+            <div id="secId" class="sec w-3xs bg-gray-700 text-white font-bold p-3 rounded-lg shadow-[0_0_10px_2px_rgba(255,255,255,0.2)]">46</div>
         </div>
     </div>    
 
